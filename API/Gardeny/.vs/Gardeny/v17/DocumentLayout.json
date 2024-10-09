@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\viewmodels\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\viewmodels\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\controllers\\followscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\viewmodels\\postfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\viewmodels\\postfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\viewmodels\\postcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\viewmodels\\postcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\viewmodels\\createrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\viewmodels\\createrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|c:\\users\\davor\\onedrive\\desktop\\gardeny\\api\\gardeny\\gardeny\\viewmodels\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83D41CC-A9AA-4586-961D-66202715B411}|Gardeny\\Gardeny.csproj|solutionrelative:gardeny\\viewmodels\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FollowsController.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Controllers\\FollowsController.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Controllers\\FollowsController.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Controllers\\FollowsController.cs",
+              "RelativeToolTip": "Gardeny\\Controllers\\FollowsController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAnwGcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:47:08.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Viewmodels\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\CurrentUser.cs",
+              "RelativeToolTip": "Gardeny\\Viewmodels\\CurrentUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:38:22.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Gardeny\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:56:35.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Program.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Program.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Program.cs",
+              "RelativeToolTip": "Gardeny\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:05:31.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\User.cs",
+              "RelativeToolTip": "Gardeny\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T08:50:00.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostFeed.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\PostFeed.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Viewmodels\\PostFeed.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\PostFeed.cs",
+              "RelativeToolTip": "Gardeny\\Viewmodels\\PostFeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T08:06:49.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\Comment.cs",
+              "RelativeToolTip": "Gardeny\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T19:46:42.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\Post.cs",
+              "RelativeToolTip": "Gardeny\\Models\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T19:44:19.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Models\\Rating.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Models\\Rating.cs",
+              "RelativeToolTip": "Gardeny\\Models\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:11:49.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateRating.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\CreateRating.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Viewmodels\\CreateRating.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\CreateRating.cs",
+              "RelativeToolTip": "Gardeny\\Viewmodels\\CreateRating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:11:44.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PostCreate.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\PostCreate.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Viewmodels\\PostCreate.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\PostCreate.cs",
+              "RelativeToolTip": "Gardeny\\Viewmodels\\PostCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:04:27.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Gardeny\\Controllers\\PostsController.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAAA0wNAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:02:46.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Viewmodels\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Viewmodels\\UserDetails.cs",
+              "RelativeToolTip": "Gardeny\\Viewmodels\\UserDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:34:51.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Gardeny\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\davor\\OneDrive\\Desktop\\Gardeny\\API\\Gardeny\\Gardeny\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Gardeny\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAAAuwNoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:10:47.933Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

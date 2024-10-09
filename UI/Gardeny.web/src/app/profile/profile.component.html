@@ -1,0 +1,131 @@
+<div class="flex flex-row justify-between min-h-screen">
+    <!-- Left Side: User Profile (Green) -->
+    <div class="w-1/3 p-4 m-0" style="background-color:#1d4b0b;">
+      <!-- Profile Picture with Border -->
+      <div class="flex justify-center">
+        <div class="rounded-full border-4 border-white p-2">
+          <img [src]="server + user.user.pictureUrl" alt="Profile Picture" class="rounded-full w-32 h-32 object-cover">
+        </div>
+      </div>
+  
+      <!-- User Name -->
+      <div class="text-center mt-4 text-white">
+        <h2 class="text-2xl font-bold">{{ user.user.firstName }} {{ user.user.lastName }}</h2>
+      </div>
+  
+      <!-- Followers and Following Counts -->
+      <div class="flex justify-between mt-2 text-white">
+        <div class="text-center">
+          <p class="font-semibold">Followers</p>
+          <p>{{ user.followers }}</p>
+        </div>
+        <div class="text-center">
+          <p class="font-semibold">Following</p>
+          <p>{{ user.following }}</p>
+        </div>
+      </div>
+  
+      <!-- Follow Button -->
+      <div class="flex justify-center mt-4" *ngIf="!isCurrent">
+        <button (click)="follow(userId)" class="px-4 py-2 bg-green-400 text-white rounded-lg hover:bg-green-500 transition-all duration-200">
+          {{ user.follow ? 'Following' : 'Follow for ' + user.user.price + '$'}}
+        </button>
+      </div>
+  
+      <!-- Three Dots to Toggle Additional Info -->
+      <div class="flex justify-center mt-2 text-white">
+        <button (click)="showDetails = !showDetails" class="text-3xl font-bold">...</button>
+      </div>
+  
+      <!-- Additional Info with Stripes and Styling -->
+      <div *ngIf="showDetails" class="mt-4 text-white">
+        <div class="border-t border-gray-400 py-2">
+          <p><strong>Email:</strong> {{ user.user.email }}</p>
+        </div>
+        <div class="border-t border-gray-400 py-2">
+          <p><strong>Date of Birth:</strong> {{ user.user.dateOfBirth | date }}</p>
+        </div>
+        <div class="border-t border-gray-400 py-2">
+          <p><strong>Location:</strong> {{ user.user.location }}</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Right Side: User Posts -->
+<div class="w-2/3 p-4 flex justify-center">
+    <div class="w-full max-w-2xl"> <!-- Max width for posts container -->
+      <h3 class="text-xl font-bold mb-4 text-center">Posts</h3>
+  
+      <!-- Posts List -->
+      <div *ngIf="posts?.length; else noPosts">
+        <div *ngFor="let p of posts" class="mb-4 p-4 flex justify-center">
+          <div class="w-full max-w-lg bg-white rounded-lg shadow-md overflow-hidden mb-4">
+            <div class="p-4">
+              <div class="flex items-center mb-2">
+                <img [src]="server + user.user.pictureUrl" alt="Profile Picture" class="w-10 h-10 rounded-full mr-2">
+                <div class="text-gray-900 font-bold">{{ user.user.firstName }} {{ user.user.lastName }}</div>
+              </div>
+              <div class="text-gray-700 mb-2">{{ p.post.text }}</div>
+              <div class="text-gray-500 text-sm">Posted on: {{ p.post.date | date }}</div>
+            </div>
+  
+            <!-- Pictures -->
+            <div *ngIf="p.post.pictures && p.post.pictures.length > 0" class="grid grid-cols-2 gap-2 p-4">
+              <ng-container *ngFor="let picture of p.post.pictures">
+                <img [src]="server + picture.url" class="w-full h-auto rounded-lg" alt="Post Picture">
+              </ng-container>
+            </div>
+  
+            <!-- Comments Section -->
+            <div class="p-4 bg-gray-100">
+              <ul class="divide-y divide-gray-300 mb-4">
+                <li *ngFor="let comment of p.post.comments" class="py-2">
+                  <!--<div class="flex items-center">--><a [routerLink]="['/profile', comment.userId]" class="flex items-center">
+                    <img [src]="server + comment.user.pictureUrl" alt="Profile Picture" class="w-8 h-8 rounded-full mr-2">
+                    <div>
+                      <div class="text-gray-900 font-medium">{{ comment.user.firstName }} {{ comment.user.lastName }}</div>
+                      <div class="text-gray-700">{{ comment.text }}</div>
+                    </div></a>
+                  <!--</div>-->
+                </li>
+              </ul>
+  
+              <!-- Comment Form -->
+              <form (ngSubmit)="commentForm.valid && addComment(p.post.postId, commentText.value)" #commentForm="ngForm" novalidate>
+                <div class="flex items-center">
+                  <textarea name="commentText"  required #commentText placeholder="Write a comment..." class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                  <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 ml-4" style="background-color:#1d4b0b">Comment</button>
+                </div>
+              </form>
+            </div>
+  
+            <!-- Rating Section -->
+            <div class="p-4 bg-gray-100">
+              <div class="text-gray-700 mb-2">Average Rating: {{ p.averageRating }}</div>
+  
+              <!-- Rating Form -->
+        <form (ngSubmit)="ratingForm.valid && ratePost(p.post.postId, rating.value)" #ratingForm="ngForm" novalidate>
+          <div class="flex items-center">
+            <label for="rating" class="mr-2">Rate this post:</label>
+            <select name="rating" required #rating class="border rounded-lg px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" >
+              <option value="" disabled selected></option>
+              <option *ngFor="let r of [1, 2, 3, 4, 5]" [value]="r" [selected]="r === p.rating">{{ r }}</option>
+            </select>
+            <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 ml-4" style="background-color:#1d4b0b">
+              {{ p.rating ? 'Rate Again' : 'Rate' }}
+            </button>
+          </div>
+        </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- No Posts Available -->
+      <ng-template #noPosts>
+        <p>No posts available.</p>
+      </ng-template>
+    </div>
+  </div>
+  
+  

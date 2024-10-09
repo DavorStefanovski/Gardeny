@@ -1,0 +1,142 @@
+<div style="background-color:#1d4b0b;">
+<div class="max-w-md mx-auto p-6 border rounded-lg bg-white" style="background-color:white;">
+  <img
+    id="profile-img"
+    src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
+    class="w-32 h-32 mx-auto rounded-full"
+  />
+  <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate class="space-y-6">
+    <div>
+      <label for="FirstName" class="block text-sm font-medium text-gray-700">First Name</label>
+      <input
+        type="text"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="FirstName"
+        [(ngModel)]="form.User.FirstName"
+        required
+        #FirstName="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && FirstName.errors }"
+      />
+      <div *ngIf="FirstName.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="FirstName.errors['required']">First Name is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="LastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+      <input
+        type="text"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="LastName"
+        [(ngModel)]="form.User.LastName"
+        required
+        #LastName="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && LastName.errors }"
+      />
+      <div *ngIf="LastName.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="LastName.errors['required']">Last Name is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="Email" class="block text-sm font-medium text-gray-700">Email</label>
+      <input
+        type="email"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="Email"
+        [(ngModel)]="form.User.Email"
+        required
+        #Email="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && Email.errors }"
+      />
+      <div *ngIf="Email.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="Email.errors['required']">Email is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="DateOfBirth" class="block text-sm font-medium text-gray-700">Date Of Birth</label>
+      <input
+        type="date"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="DateOfBirth"
+        [(ngModel)]="form.User.DateOfBirth"
+        required
+        #DateOfBirth="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && DateOfBirth.errors }"
+      />
+      <div *ngIf="DateOfBirth.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="DateOfBirth.errors['required']">Date Of Birth is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="Password" class="block text-sm font-medium text-gray-700">Password</label>
+      <input
+        type="password"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="Password"
+        [(ngModel)]="form.Password"
+        required
+        #Password="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && Password.errors }"
+      />
+      <div *ngIf="Password.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="Password.errors['required']">Password is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="Location" class="block text-sm font-medium text-gray-700">Location</label>
+      <input
+        type="text"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="Location"
+        [(ngModel)]="form.User.Location"
+        required
+        #Location="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && Location.errors }"
+      />
+      <div *ngIf="Location.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="Location.errors['required']">Location is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="Price" class="block text-sm font-medium text-gray-700">Price ($)</label>
+      <input
+        type="number"
+        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        name="Price"
+        [(ngModel)]="form.User.Price"
+        required
+        #Price="ngModel"
+        [ngClass]="{ 'border-red-500': f.submitted && Price.errors }"
+      />
+      <div *ngIf="Price.errors && f.submitted" class="text-red-500 text-sm mt-1">
+        <div *ngIf="Price.errors['required']">Price is required</div>
+      </div>
+    </div>
+    <div>
+      <label for="ProfilePicture" class="block text-sm font-medium text-gray-700">Profile Picture</label>
+      <input
+        type="file"
+        class="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-green-50 file:text-green-600 hover:file:bg-green-100"
+        name="ProfilePicture"
+        (change)="onFileChange($event)"
+        required
+        [ngClass]="{ 'border-red-500': f.submitted && !form.ProfilePicture }"
+      />
+      <div *ngIf="!form.ProfilePicture && f.submitted" class="text-red-500 text-sm mt-1">
+        Profile Picture is required!
+      </div>
+    </div>
+    <div class="form-group">
+      <button class="w-full py-2 px-4 bg-green-600 text-white rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
+        Sign Up
+      </button>
+    </div>
+    <div *ngIf="f.submitted && isSignUpFailed" class="mt-4 p-2 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700">
+      Signup failed!<br />{{ errorMessage }}
+    </div>
+  </form>
+  <div *ngIf="isSuccessful" class="mt-4 p-2 bg-green-100 border-l-4 border-green-500 text-green-700">
+    Your registration is successful!
+  </div>
+  
+</div>
+</div>
